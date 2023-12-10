@@ -76,7 +76,7 @@ int main()
 
     int resultSize = sizeof(result) / sizeof(int);
 
-    for (unsigned int i = 0; i < resultSize; i++)
+    for (unsigned int i = 0; i <= resultSize; i++)
     {
         printf("The sum of arrayvalues are greatest with: %d\n", result[i]);
     }
